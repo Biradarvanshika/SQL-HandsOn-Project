@@ -31,26 +31,25 @@ Contains the SQL commands to:
 ```sql
 SELECT * FROM Employees;
 
--- **2️⃣ View IT department employees:**
+**2️⃣ View IT department employees:**
 ```sql
 SELECT FirstName, LastName
 FROM Employees
 WHERE Department = 'IT';
 
--- **3️⃣ Calculate average salary by department:**
+**3️⃣ Calculate average salary by department:**
 ```sql
 SELECT Department, AVG(Salary) AS AvgSalary
 FROM Employees
 GROUP BY Department;
 
+
+
 ---
 
--- How to Use:
--- 1. Download the file: SQL_HandsOn.sql
--- 2. Open your preferred SQL environment:
---    - MySQL Workbench
---    - SQL Server Management Studio
---    - PostgreSQL (adjust syntax if needed)
--- 3. Run (execute) the SQL_HandsOn.sql file in your environment.
--- 4. Observe the created database, tables, and query results.
+## 📎 How to Use
+Download the SQL_HandsOn.sql file.
+Run it in any SQL environment (MySQL, SQL Server, or PostgreSQL with slight syntax adjustments).
+Observe the database and query results.
+
 
